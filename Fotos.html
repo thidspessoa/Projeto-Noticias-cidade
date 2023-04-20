@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <title> Notícias cidade - Fotos </title>
+        <meta charset="utf-8">
+
+        <!--Estilo customizado -->
+        <link rel="stylesheet" type="text/css"
+        href="css/estilo.css">
+
+    </head>
+
+    <body id="uma-colunas" class="Fotos">
+       
+        <!--Inicio container-->
+        <div id="container">
+
+            <!--Inicio topo-->
+            <div id="topo">
+                <h1 class="logo">Noticias cidade</h1>
+                <ul id="navegação">
+                    <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+                    <li><a a id="Brasil" href="Brasil.html">Brasil</a></li>
+                    <li><a a id="Internacional" href="#">Internacional</a></li>
+                    <li><a a id="Economia" href="#">Economia</a></li>
+                    <li><a a id="Saúde" href="#">Saúde</a></li>
+                    <li><a a id="Ciência" href="#">Ciência</a></li>
+                    <li><a a id="Fotos" href="Fotos.html">Fotos</a></li>
+                </ul>
+            </div> <!--Fim /topo-->
+
+            <div id="conteudo"> <!-- Inicio Conteudo -->
+
+                <!--Os conteudos seguem essa ordem
+                por uma questão de acessibilidade. 
+                Pois os leitores de tela irão ler na ordem
+                certa, os conteudos do seu site.-->
+                <div id="primario"> <!-- Iinicio Primario -->
+
+                    <div class="caixa destaque"> <!--Inicio cx. destaques -->
+                       
+                        <h2>Destaque</h2>
+                        <div id="caixa-conteudo">
+                           
+                            <h3>Ponte Rio Niteroi</h3>
+                            <img class="imagem-principal" src="Assets/cidade.jpg"
+                            width="100%"> 
+                            <!-- O Problema de usar uma imagem
+                            grande e reduzir seu tamanho com CSS, é porque seu tamanho
+                            pode diminuir, mas seu tamanho de carregamento (kb), continua
+                            o mesmo.-->
+                            <p>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                            </p>
+                            <a href="#">Leia mais</a>
+                        </div>
+                    
+                    </div> <!--Fim cx. /destaques-->
+
+                    <div class="caixa"> <!--Inicio cx. mundo-->
+                        <h2>Pelo mundo</h2>
+                        <div id="caixa-conteudo">
+                           
+                            <ul id="listas-noticias">
+                                <li>
+                                    <a href="#">
+                                        <img src="Assets/mundo.jpg"
+                                        width="80">
+                                        <h3>As capitais mais visitadas do mundo</h3>
+                                        <p>Lorem ipsum dolor sit
+                                        amet, consectetur...</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="Assets/mundo.jpg"
+                                        width="80">
+                                        <h3>Principais Pontos turisticos - Chicago </h3>
+                                        <p>Lorem ipsum dolor sit
+                                        amet, consectetur...</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="Assets/mundo.jpg"
+                                        width="80">
+                                        <h3>Novas tecnologias 5G chegam ao brasil</h3>
+                                        <p>Lorem ipsum dolor sit
+                                        amet, consectetur...</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="Assets/taxi.jpg"
+                                        width="80">
+                                        <h3>Poluição nas grandes metropoles</h3>
+                                        <p>Lorem ipsum dolor sit
+                                        amet, consectetur...</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                        </div>
+                    </div> <!--Fim cx. /mundo-->
+
+            </div><!-- Fim /Conteudo -->
+
+        </div><!--Fim /container-->
+        
+        <div id="container-rodape" style="clear: both;">
+            <div id="rodape">
+                <!--HTML-ENTIES: Serve justamente
+                para inserirmos caracteres reservados,
+                caracteres invisiveis (como espaço sem quebra).
+                que se fossem utilizados de outra maneira
+                seriam interpretados como codigo HTML e não
+                como texto.-->
+                &copy; Copyright 2000-2018 Notícias cidade
+            </div>
+        </div>
+ 
+    </body>
+
+</html>
